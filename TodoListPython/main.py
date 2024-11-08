@@ -1,8 +1,8 @@
-user_prompt = "Enter todo:"
-todo1 = input(user_prompt)
-todo2 = input(user_prompt)
-todo3 = input(user_prompt)
+user_prompt = "Enter todo: "
 
-todos = [todo1, todo2, todo3]
+todos = []
 
-print(todos)
+while todo != "":
+    todo = input(user_prompt)
+    print(todo.capitalize())
+    todos.append(todo)
